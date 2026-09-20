@@ -103,9 +103,9 @@ FER additionally considers the **entity–metric–value binding**, since correc
 
 A key design goal of FER is to distinguish small numerical deviations from catastrophic magnitude errors.
 
-For reference value \(v\) and hypothesis value \(\hat v\), FER uses a logarithmic magnitude-aware error:
+For reference value \(v\) and hypothesis value \($$\hat v$$\), FER uses a logarithmic magnitude-aware error:
 
-$$
+```math
 E_v(v,\hat v)
 =
 \min\left(
@@ -114,7 +114,7 @@ E_v(v,\hat v)
 |\log(|v|+\epsilon)-\log(|\hat v|+\epsilon)|
 }{\tau}
 \right).
-$$
+```
 
 By default,
 
