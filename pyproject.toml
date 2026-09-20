@@ -1,0 +1,21 @@
+[build-system]
+requires=["setuptools>=68","wheel"]
+build-backend="setuptools.build_meta"
+
+[project]
+name="finasr-fer"
+version="0.7.0"
+description="General multilingual Structured Financial Error Rate evaluator for financial ASR"
+readme="README.md"
+requires-python=">=3.9"
+dependencies=[]
+
+[project.optional-dependencies]
+hungarian=["numpy>=1.23","scipy>=1.9"]
+
+[project.scripts]
+finasr-fer="finasr_fer.cli:main"
+
+[tool.setuptools.packages.find]
+where=["."]
+include=["finasr_fer*"]

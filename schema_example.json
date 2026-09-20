@@ -1,0 +1,13 @@
+{
+  "fact_id": "F1",
+  "entity": "NVIDIA",
+  "metric": "revenue",
+  "value": 30000000000,
+  "surface_value": "$30 billion",
+  "unit": "absolute_money",
+  "currency": "USD",
+  "time": "FY2027Q2",
+  "direction": "increase",
+  "comparison": null,
+  "negation": false
+}

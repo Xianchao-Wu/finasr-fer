@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Logs / temporary files
+*.log
+log.*
+*.out
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Model/cache
+.cache/
+checkpoints/
+outputs/
