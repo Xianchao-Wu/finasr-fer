@@ -479,8 +479,7 @@ If you use FER or FinASR-Bench in academic work, please cite our paper:
 @inproceedings{fer2027,
   title     = {Structured Financial Error Rate for Financial ASR},
   author    = {TBD},
-  booktitle = {Proceedings of the IEEE International Conference on
-               Acoustics, Speech and Signal Processing (ICASSP)},
+  booktitle = {Proceedings of xxx},
   year      = {2027}
 }
 ```
